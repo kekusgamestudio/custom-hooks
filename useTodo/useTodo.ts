@@ -1,6 +1,6 @@
 import { useEffect, useReducer } from 'react';
-import { todoReducer } from '../todo-list/TodoReducer';
-import { Todo } from '../interfaces/todo';
+import { todoReducer } from './TodoReducer';
+import { Todo } from './interfaces/todo';
 
 
 const init = () => {
